@@ -1,6 +1,7 @@
 public class master_branch{
   int roll;
   String name;
+  string master;
 
   master_branch(String n, int r){
   this.name = n;
@@ -18,6 +19,12 @@ public class master_branch{
   }
   public void setName(String name){
     this.name = name;
+  }
+   public int getMaster(){
+    return master;
+  }
+  public void setMaster(String name){
+    this.master = name;
   }
 
 }
